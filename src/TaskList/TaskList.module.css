@@ -1,0 +1,42 @@
+.title {
+  color: green;
+}
+.wrapper {
+  background-color: aqua;
+  margin-left: 20rem;
+
+  border: 2px solid black;
+  height: auto;
+  width: 50rem;
+}
+.header {
+  color: blue;
+}
+.button {
+  background-color: rosybrown;
+  border-radius: 5px;
+}
+.main {
+  height: 200vh;
+  width: 100vw;
+  background-color: blueviolet;
+}
+.complete {
+  background-color: green;
+  border-radius: 5px;
+}
+.all {
+  background-color: blue;
+  border-radius: 5px;
+}
+.uncomplete {
+  background-color: red;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    margin-left: 0;
+    width: auto;
+    height: fit-content;
+  }
+}
